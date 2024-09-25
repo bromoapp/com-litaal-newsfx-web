@@ -1,0 +1,539 @@
+{
+  "pages": {
+    "links": [
+      {
+        "title": "Logout",
+        "icon": "logout"
+      }
+    ]
+  },
+  "timeframes": [
+    "M1",
+    "M5",
+    "M15",
+    "M30",
+    "H1",
+    "D1"
+  ],
+  "impacts": [
+    {
+      "label": "ALL"
+    },
+    {
+      "label": "NONE",
+      "value": -1
+    },
+    {
+      "label": "LOW",
+      "value": 0
+    },
+    {
+      "label": "MED",
+      "value": 1
+    },
+    {
+      "label": "HIGH",
+      "value": 2
+    }
+  ],
+  "pairs": [
+    {
+      "label": "AUDUSD",
+      "value": "AUDUSD"
+    },
+    {
+      "label": "EURUSD",
+      "value": "EURUSD"
+    },
+    {
+      "label": "GBPUSD",
+      "value": "GBPUSD"
+    },
+    {
+      "label": "NZDUSD",
+      "value": "NZDUSD"
+    },
+    {
+      "label": "USDCAD",
+      "value": "USDCAD"
+    },
+    {
+      "label": "USDCHF",
+      "value": "USDCHF"
+    },
+    {
+      "label": "USDJPY",
+      "value": "USDJPY"
+    },
+    {
+      "label": "AUDCAD",
+      "value": "AUDCAD"
+    },
+    {
+      "label": "AUDCHF",
+      "value": "AUDCHF"
+    },
+    {
+      "label": "AUDJPY",
+      "value": "AUDJPY"
+    },
+    {
+      "label": "AUDNZD",
+      "value": "AUDNZD"
+    },
+    {
+      "label": "CADCHF",
+      "value": "CADCHF"
+    },
+    {
+      "label": "CADJPY",
+      "value": "CADJPY"
+    },
+    {
+      "label": "CHFJPY",
+      "value": "CHFJPY"
+    },
+    {
+      "label": "EURAUD",
+      "value": "EURAUD"
+    },
+    {
+      "label": "EURCAD",
+      "value": "EURCAD"
+    },
+    {
+      "label": "EURCHF",
+      "value": "EURCHF"
+    },
+    {
+      "label": "EURGBP",
+      "value": "EURGBP"
+    },
+    {
+      "label": "EURJPY",
+      "value": "EURJPY"
+    },
+    {
+      "label": "EURNZD",
+      "value": "EURNZD"
+    },
+    {
+      "label": "GBPAUD",
+      "value": "GBPAUD"
+    },
+    {
+      "label": "GBPCAD",
+      "value": "GBPCAD"
+    },
+    {
+      "label": "GBPCHF",
+      "value": "GBPCHF"
+    },
+    {
+      "label": "GBPJPY",
+      "value": "GBPJPY"
+    },
+    {
+      "label": "GBPNZD",
+      "value": "GBPNZD"
+    },
+    {
+      "label": "NZDCAD",
+      "value": "NZDCAD"
+    },
+    {
+      "label": "NZDCHF",
+      "value": "NZDCHF"
+    },
+    {
+      "label": "NZDJPY",
+      "value": "NZDJPY"
+    }
+  ],
+  "currencies": [
+    {
+      "label": "USD",
+      "value": "USD"
+    },
+    {
+      "label": "AUD",
+      "value": "AUD"
+    },
+    {
+      "label": "EUR",
+      "value": "EUR"
+    },
+    {
+      "label": "GBP",
+      "value": "GBP"
+    },
+    {
+      "label": "NZD",
+      "value": "NZD"
+    },
+    {
+      "label": "CAD",
+      "value": "CAD"
+    },
+    {
+      "label": "CHF",
+      "value": "CHF"
+    },
+    {
+      "label": "JPY",
+      "value": "JPY"
+    }
+  ],
+  "currencies_4search": [
+    {
+      "label": "ALL",
+      "value": "ALL"
+    },
+    {
+      "label": "USD",
+      "value": "USD"
+    },
+    {
+      "label": "AUD",
+      "value": "AUD"
+    },
+    {
+      "label": "EUR",
+      "value": "EUR"
+    },
+    {
+      "label": "GBP",
+      "value": "GBP"
+    },
+    {
+      "label": "NZD",
+      "value": "NZD"
+    },
+    {
+      "label": "CAD",
+      "value": "CAD"
+    },
+    {
+      "label": "CHF",
+      "value": "CHF"
+    },
+    {
+      "label": "JPY",
+      "value": "JPY"
+    }
+  ],
+  "eventbus": {
+    "AUTH_ERROR": "AUTH_ERROR",
+    "INQUIRY_ERROR": "INQUIRY_ERROR",
+    "CHART_MESSAGE": "CHART_MESSAGE",
+    "OTHERS_IMPACT": "OTHERS_IMPACT",
+    "SHOW_INFO": "SHOW_INFO",
+    "SWITCH_TAB": "SWITCH_TAB",
+    "RENDER_VOLATILITY": "RENDER_VOLATILITY",
+    "RENDER_FORECAST": "RENDER_FORECAST",
+    "RENDER_SWING": "RENDER_SWING",
+    "CHANGE_TITLE": "CHANGE_TITLE"
+  },
+  "cookies": {
+    "token": "token",
+    "token_exp": "token_exp"
+  },
+  "news_providers": [
+    {
+      "label": "dukascopy.com",
+      "value": "DUKASCOPY"
+    },
+    {
+      "label": "dailyfx.com",
+      "value": "DAILYFX"
+    },
+    {
+      "label": "fxempire.com",
+      "value": "FXEMPIRE"
+    },
+    {
+      "label": "mql5.com",
+      "value": "MQL5"
+    }
+  ],
+  "news_providers_4search": [
+    {
+      "label": "ALL",
+      "value": "ALL"
+    },
+    {
+      "label": "dukascopy.com",
+      "value": "DUKASCOPY"
+    },
+    {
+      "label": "dailyfx.com",
+      "value": "DAILYFX"
+    },
+    {
+      "label": "fxempire.com",
+      "value": "FXEMPIRE"
+    },
+    {
+      "label": "mql5.com",
+      "value": "MQL5"
+    }
+  ],
+  "search": {
+    "key": "SEARCH",
+    "args": "SEARCH_ARGS"
+  },
+  "links": {
+    "key": "USER_LINKS"
+  },
+  "countries": [
+    "Afghanistan",
+    "Albania",
+    "Algeria",
+    "American Samoa",
+    "Andorra",
+    "Angola",
+    "Anguilla",
+    "Antarctica",
+    "Antigua and Barbuda",
+    "Argentina",
+    "Armenia",
+    "Aruba",
+    "Australia",
+    "Austria",
+    "Azerbaijan",
+    "Bahamas (the)",
+    "Bahrain",
+    "Bangladesh",
+    "Barbados",
+    "Belarus",
+    "Belgium",
+    "Belize",
+    "Benin",
+    "Bermuda",
+    "Bhutan",
+    "Bolivia (Plurinational State of)",
+    "Bonaire, Sint Eustatius and Saba",
+    "Bosnia and Herzegovina",
+    "Botswana",
+    "Bouvet Island",
+    "Brazil",
+    "British Indian Ocean Territory (the)",
+    "Brunei Darussalam",
+    "Bulgaria",
+    "Burkina Faso",
+    "Burundi",
+    "Cabo Verde",
+    "Cambodia",
+    "Cameroon",
+    "Canada",
+    "Cayman Islands (the)",
+    "Central African Republic (the)",
+    "Chad",
+    "Chile",
+    "China",
+    "Christmas Island",
+    "Cocos (Keeling) Islands (the)",
+    "Colombia",
+    "Comoros (the)",
+    "Congo (the Democratic Republic of the)",
+    "Congo (the)",
+    "Cook Islands (the)",
+    "Costa Rica",
+    "Croatia",
+    "Cuba",
+    "Curaçao",
+    "Cyprus",
+    "Czechia",
+    "Côte d'Ivoire",
+    "Denmark",
+    "Djibouti",
+    "Dominica",
+    "Dominican Republic (the)",
+    "Ecuador",
+    "Egypt",
+    "El Salvador",
+    "Equatorial Guinea",
+    "Eritrea",
+    "Estonia",
+    "Eswatini",
+    "Ethiopia",
+    "Falkland Islands (the) [Malvinas]",
+    "Faroe Islands (the)",
+    "Fiji",
+    "Finland",
+    "France",
+    "French Guiana",
+    "French Polynesia",
+    "French Southern Territories (the)",
+    "Gabon",
+    "Gambia (the)",
+    "Georgia",
+    "Germany",
+    "Ghana",
+    "Gibraltar",
+    "Greece",
+    "Greenland",
+    "Grenada",
+    "Guadeloupe",
+    "Guam",
+    "Guatemala",
+    "Guernsey",
+    "Guinea",
+    "Guinea-Bissau",
+    "Guyana",
+    "Haiti",
+    "Heard Island and McDonald Islands",
+    "Holy See (the)",
+    "Honduras",
+    "Hong Kong",
+    "Hungary",
+    "Iceland",
+    "India",
+    "Indonesia",
+    "Iran (Islamic Republic of)",
+    "Iraq",
+    "Ireland",
+    "Isle of Man",
+    "Israel",
+    "Italy",
+    "Jamaica",
+    "Japan",
+    "Jersey",
+    "Jordan",
+    "Kazakhstan",
+    "Kenya",
+    "Kiribati",
+    "Korea (the Democratic People's Republic of)",
+    "Korea (the Republic of)",
+    "Kuwait",
+    "Kyrgyzstan",
+    "Lao People's Democratic Republic (the)",
+    "Latvia",
+    "Lebanon",
+    "Lesotho",
+    "Liberia",
+    "Libya",
+    "Liechtenstein",
+    "Lithuania",
+    "Luxembourg",
+    "Macao",
+    "Madagascar",
+    "Malawi",
+    "Malaysia",
+    "Maldives",
+    "Mali",
+    "Malta",
+    "Marshall Islands (the)",
+    "Martinique",
+    "Mauritania",
+    "Mauritius",
+    "Mayotte",
+    "Mexico",
+    "Micronesia (Federated States of)",
+    "Moldova (the Republic of)",
+    "Monaco",
+    "Mongolia",
+    "Montenegro",
+    "Montserrat",
+    "Morocco",
+    "Mozambique",
+    "Myanmar",
+    "Namibia",
+    "Nauru",
+    "Nepal",
+    "Netherlands (the)",
+    "New Caledonia",
+    "New Zealand",
+    "Nicaragua",
+    "Niger (the)",
+    "Nigeria",
+    "Niue",
+    "Norfolk Island",
+    "Northern Mariana Islands (the)",
+    "Norway",
+    "Oman",
+    "Pakistan",
+    "Palau",
+    "Palestine, State of",
+    "Panama",
+    "Papua New Guinea",
+    "Paraguay",
+    "Peru",
+    "Philippines (the)",
+    "Pitcairn",
+    "Poland",
+    "Portugal",
+    "Puerto Rico",
+    "Qatar",
+    "Republic of North Macedonia",
+    "Romania",
+    "Russian Federation (the)",
+    "Rwanda",
+    "Réunion",
+    "Saint Barthélemy",
+    "Saint Helena, Ascension and Tristan da Cunha",
+    "Saint Kitts and Nevis",
+    "Saint Lucia",
+    "Saint Martin (French part)",
+    "Saint Pierre and Miquelon",
+    "Saint Vincent and the Grenadines",
+    "Samoa",
+    "San Marino",
+    "Sao Tome and Principe",
+    "Saudi Arabia",
+    "Senegal",
+    "Serbia",
+    "Seychelles",
+    "Sierra Leone",
+    "Singapore",
+    "Sint Maarten (Dutch part)",
+    "Slovakia",
+    "Slovenia",
+    "Solomon Islands",
+    "Somalia",
+    "South Africa",
+    "South Georgia and the South Sandwich Islands",
+    "South Sudan",
+    "Spain",
+    "Sri Lanka",
+    "Sudan (the)",
+    "Suriname",
+    "Svalbard and Jan Mayen",
+    "Sweden",
+    "Switzerland",
+    "Syrian Arab Republic",
+    "Taiwan",
+    "Tajikistan",
+    "Tanzania, United Republic of",
+    "Thailand",
+    "Timor-Leste",
+    "Togo",
+    "Tokelau",
+    "Tonga",
+    "Trinidad and Tobago",
+    "Tunisia",
+    "Turkey",
+    "Turkmenistan",
+    "Turks and Caicos Islands (the)",
+    "Tuvalu",
+    "Uganda",
+    "Ukraine",
+    "United Arab Emirates (the)",
+    "United Kingdom of Great Britain and Northern Ireland (the)",
+    "United States Minor Outlying Islands (the)",
+    "United States of America (the)",
+    "Uruguay",
+    "Uzbekistan",
+    "Vanuatu",
+    "Venezuela (Bolivarian Republic of)",
+    "Viet Nam",
+    "Virgin Islands (British)",
+    "Virgin Islands (U.S.)",
+    "Wallis and Futuna",
+    "Western Sahara",
+    "Yemen",
+    "Zambia",
+    "Zimbabwe",
+    "Åland Islands"
+  ]
+}

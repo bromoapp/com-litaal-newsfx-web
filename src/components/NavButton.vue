@@ -1,0 +1,39 @@
+<template>
+  <q-item clickable>
+    <q-item-section v-if="icon" avatar class="close-margin">
+      <q-icon :name="icon" />
+    </q-item-section>
+    <q-item-section>
+      <q-item-label>{{ title }}</q-item-label>
+    </q-item-section>
+  </q-item>
+</template>
+
+<script>
+/* eslint-disable */
+import { defineComponent } from "vue";
+
+export default defineComponent({
+  name: "EssentialLink",
+  props: {
+    title: {
+      type: String,
+      required: true,
+    },
+    link: {
+      type: String,
+      default: "#",
+    },
+    icon: {
+      type: String,
+      default: "",
+    },
+  },
+});
+</script>
+
+<style scoped>
+.close-margin {
+  margin-right: -15px;
+}
+</style>

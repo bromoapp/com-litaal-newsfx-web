@@ -1,0 +1,176 @@
+.news-providers-options {
+  width: 232px;
+  margin: 2px 0px 0px 2px;
+}
+
+.curr-options {
+  width: 120px;
+  margin: 0px 2px 0px 2px;
+}
+
+.impact-options {
+  width: 120px;
+  margin: 0px 2px 0px 2px;
+}
+
+.other-impact-options {
+  width: 130px;
+  margin: 2px;
+}
+
+.timeframe-options {
+  width: 120px;
+  float: right;
+  margin: 2px;
+}
+
+.seach-text {
+  width: 230px;
+  margin: 0px;
+}
+
+.left-pane {
+  width: 260px;
+}
+
+.top-pane {
+  transform: translate(0px, 0px) !important;
+  height: 50px;
+}
+
+.event-item {
+  width: 100%;
+  word-wrap: break-word;
+}
+
+.event-input {
+  padding-bottom: 6px;
+  border-bottom-width: 1px;
+  border-bottom-color: #bfbfbd;
+  border-bottom-style: solid;
+}
+
+.paging-nav {
+  padding: 4px;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #bfbfbd;
+  border-style: solid;
+}
+
+.paging-col {
+  width: 320px;
+}
+
+.sr-event-col {
+  width: 280px;
+}
+
+.sr-result-panel {
+  border-radius: 4px;
+}
+
+.sr-small-font {
+  font-size: small;
+}
+
+.sr-large-font {
+  font-size: larger;
+}
+
+.sr-list-item {
+  padding: 8px 16px 0px;
+}
+
+.sr-event-panel {
+  border: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  border-color: #b0a9a9;
+}
+
+.sr-table-panel {
+  word-wrap: break-word;
+  width: 100% !important;
+}
+
+.sr-impact-high {
+  color: red;
+  font-weight: bold;
+}
+
+.sr-impact-med {
+  color: orange;
+  font-weight: bold;
+}
+
+.sr-impact-low {
+  color: green;
+  font-weight: bold;
+}
+
+.sr-impact-none {
+  color: blue;
+  font-weight: bold;
+}
+
+.sr-prices-candle-chart {
+  width: 100%;
+  height: 350px;
+  border: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  border-color: #b0a9a9;
+}
+
+.sr-vol-bar-chart {
+  width: 100%;
+  height: 60px;
+  border-left: 1px;
+  border-left-style: solid;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-right: 1px;
+  border-right-style: solid;
+  border-radius: 4px;
+  border-color: #b0a9a9;
+}
+
+.sr-delta-bar-chart {
+  width: 100%;
+  height: 100px;
+  border-left: 1px;
+  border-left-style: solid;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-right: 1px;
+  border-right-style: solid;
+  border-radius: 4px;
+  border-color: #b0a9a9;
+}
+
+.sr-volatility-chart {
+  width: 100%;
+  height: 310px;
+}
+
+.sr-swingup-chart {
+  width: 100%;
+  height: 160px;
+}
+
+.sr-swingdown-chart {
+  width: 100%;
+  height: 160px;
+}
+
+.sr-forecast-chart {
+  width: 100%;
+  height: 382px;
+}
+
+.sr-scroll-area {
+  width: 100%;
+  margin-left: 260px;
+  padding-bottom: 10px;
+}

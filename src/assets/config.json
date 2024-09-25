@@ -1,0 +1,63 @@
+{
+  "inquiry": {
+    "default_news": {
+      "label": "dukascopy.com",
+      "value": "DUKASCOPY"
+    },
+    "default_pair": {
+      "label": "EURUSD",
+      "value": "EURUSD"
+    },
+    "default_currency": {
+      "label": "USD",
+      "value": "USD"
+    },
+    "default_timeframe": "M5",
+    "max_perpage": 6,
+    "avg_forecast_size": 12,
+    "avg_volatility_size": 12,
+    "avg_swing_size": 12,
+    "avg_atr_size": 12
+  },
+  "url": {
+    "root": "http://localhost:8080/api/",
+    "auth": {
+      "login": "auth/login",
+      "logout": "auth/logout",
+      "reset": "auth/reset",
+      "register": "auth/register"
+    },
+    "inquiry": {
+      "events": {
+        "bypair": "events/by_pair",
+        "forpair": "events/for_pair",
+        "forpairs": "events/for_pairs",
+        "bycurrency": "events/by_currency",
+        "bytitle": "events/by_title",
+        "others": "events/others",
+        "forecast": "events/forecast",
+        "bywords": "events/by_words"
+      },
+      "prices": {
+        "byeventtime": "prices/by_eventtime",
+        "volatilities": "prices/volatilities",
+        "swings": "prices/swings"
+      },
+      "user": {
+        "navlinks": "user/navlinks"
+      }
+    }
+  },
+  "message": {
+    "auth": {
+      "wrong_email": "Sorry, wrong email format!",
+      "wrong_credential": "Sorry, wrong credential!",
+      "account_created": "Your new account is ready, we sent your credential to your email. Please check your email."
+    },
+    "inquiry": {},
+    "common": {
+      "empty_fields": "Sorry, some or all inputs cannot be empty!",
+      "network_error": "Sorry, something wrong with the server!"
+    }
+  }
+}
